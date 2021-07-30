@@ -3,35 +3,47 @@
     padding: 0;
     margin: 0;}
 
-body {background-color: #d9dcd6;}
-header {padding: 20px;
+body {
+    background-color: #d9dcd6;}
+
+header {
+    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;}
+
 h1 {
     display: inline-block;
     font-size: 48px;}
+
 .seo {
     color: #d9dcd6;}
+
+/* stylizes the navbar to stay in line with h1. */
 nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    }
+    font-size: 20px;}
 
-li{
+/* Sets the list horizontally and removes the automatic underline for a link.     */
+li {
     display: inline-block;
     margin-left: 25px;
-    list-style-type: none;
-    }
-a{color: #ffffff;
+    list-style-type: none;}
+
+/* Changes the color of the navbar items to make it easier to read against the blue background.     */
+a {
+    color: #ffffff;
     text-decoration: none;}    
 
+/* Sets color and font size for all p elements     */
 p {
     font-size: 16px;
     color: #ffffff;}
+
+/* Style for the central image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -39,16 +51,23 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;}
+
+/* Sets pictures and text location */
 .float-left {
     float: left;
     margin-right: 25px;}
+
 .float-right {
     float: right;
     margin-left: 25px;}
+
+/* Style for the article section. */
 article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;}
+
+/* Style for the pictures in the article section */
 .articlePicture{
     margin-bottom: 20px;
     padding: 50px;
@@ -56,10 +75,16 @@ article {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;}
+
+/* Puts a max height on the actual images used in the article section. */
 .articlePicture img {
     max-height: 200px;}
-h2 {    margin-bottom: 20px;
+
+h2 {    
+    margin-bottom: 20px;
     font-size: 36px;}
+
+/* Style for the aside (side bar, images and text). */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -69,23 +94,22 @@ aside {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;}
+
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;}    
+
 aside h3 {
     margin-bottom: 10px;
     text-align: center;}
 
-
-
+/* Styles for the footer. */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
+    text-align: center;}
 
 h2 {
-    font-size: 20px;
-}
+    font-size: 20px;}
